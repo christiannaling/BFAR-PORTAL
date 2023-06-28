@@ -1,0 +1,53 @@
+.sidebar{
+    background-color: lightblue;
+    position: fixed;
+    top: 70px;
+    left: 0px;
+    bottom: 0px;
+    padding-top: 32px;
+    padding-left: 30px;
+    padding-right: 14px;
+}
+.sidebar-link{
+    display: flex;
+    align-items: center;
+    width: 225px;
+    padding: 12px;
+    margin-bottom: 2px;
+}
+.sidebar-icon{
+
+}
+.icon-text{
+    color: rgb(50,64,84);
+    font-size: 15px;
+    font-family: Inter;
+    font-weight: 500;
+    line-height: 20px;
+    padding-left: 30px;
+}
+.sidebar-user-account{
+    width: 225px;
+    padding: 12px;
+    margin-bottom: 2px;
+    display: flex;
+}
+.sidebar-profile-picture{
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 20px;
+    margin-right: 10px;
+}
+.sidebar-user-name{
+    color: rgb(50,64,84);
+    margin-bottom: 5px;
+    font-size: 12px;
+    font-family: Inter;
+    line-height: 16px;
+}
+.sidebar-user-email{
+    color: rgb(113,131,155);
+    font-size: 12px;
+    font-family: Inter;
+    line-height: 14px;
+}

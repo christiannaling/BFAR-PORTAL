@@ -1,0 +1,47 @@
+.header{
+    background-color: lightblue;
+    height: 70px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: space-between;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    padding-left: 40px;
+}
+.left-section{
+    width: 250px;
+    display: flex;
+    align-items: center;
+}
+.bfar-logo{
+    height: 36px;
+    width: 34px;
+    margin-right: 20px;
+}
+.bfar-title{
+    font-family: Gill Sans MT;
+    font-size: 20px;
+    line-height: 20px;
+
+}
+.right-section{
+    width: 150px;
+    display: flex;
+    align-items: center;
+}
+.about{
+    font-family: DM Sans;
+    font-size: 18px;
+    color: rgb(93,90,136);
+    position: fixed;
+    right: 100px;
+}
+.contact{
+    font-family: DM Sans;
+    font-size: 18px;
+    color: rgb(93,90,136);
+    position: fixed;
+    right: 20px;
+}
