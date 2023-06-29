@@ -5,7 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home</title>
 
-    <link rel="stylesheet" href="styles/Home.css">
     <link rel="stylesheet" href="styles/general.css">
     <link rel="stylesheet" href="styles/header.css">
     <link rel="stylesheet" href="styles/sidebar.css">
@@ -15,6 +14,7 @@
   <div>
      <img class="background" src="background/background.jpg">
   </div>
+  <!--Header-->
   <div class="header">
     <div class="left-section">
       <img class="bfar-logo" src="logo/bfar-logo.png">
@@ -24,8 +24,11 @@
       <p class="about">About</p>
       <p class="contact">Contact</P>
     </div>
-
+    <!--Sidebar-->
     <sidebar class="sidebar">
+      <div class="sidebar-open">
+        <img class="sidebar-arrow-icon" src="icons/sidebar-arrow-icon.svg"> 
+      </div>
       <div class="sidebar-link">
         <img class="sidebar-icon" src="icons/sidebar-home-icon.svg">
         <div class="icon-text">Home</div>
@@ -52,9 +55,39 @@
           <div class="sidebar-user-name">Chan</div>
           <div class="sidebar-user-email">hakdog1234@gmail.com</div>
         </div>
-          
       </div>
     </sidebar>
+    <!--Home-->
+    <div class="overlay">
+      <div class="home">
+        <div class="bfar-logo-container">
+          <img class="bfar-home-logo" src="logo/bfar-logo.png">
+        </div>
+        <div class="menu-overlay">
+          <div class="menu">
+            <div class="menu-link">
+              <img class="menu-icon" src="icons/menu-licensing-icon.svg">
+              <p class="menu-text">LICENSING</p>
+            </div>
+            <div class="menu-link">
+              <img class="menu-icon" src="icons/boat-licensing-icon.svg">
+              <p class="menu-text">BOAT</p>
+            </div>
+            <div class="menu-link">
+              <img class="menu-icon" src="icons/menu-transaction-icon.svg">
+              <p class="menu-text">TRANSACTION</p>
+            </div>
+            <div class="menu-link">
+              <img class="menu-icon" src="icons/menu-violations-icon.svg">
+              <p class="menu-text">VIOLATIONS</p>
+            </div>
+            <div class="menu-link">
+              <img class="menu-icon" src="icons/menu-documents-icon.svg">
+              <p class="menu-text">DOCUMENTS</p>
+            </div>
+          </div>
+        </div>
+      </div>
 </div>
 </body>
 </html>

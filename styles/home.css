@@ -1,0 +1,100 @@
+.overlay{
+    position: relative;
+    position: fixed;
+    top: 70px;
+    bottom: 0;
+    left: 295px;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+@media screen and (min-device-width: 768px)
+    and (max-device-width: 1023px){
+    .overlay{
+        top: 70px;
+        bottom: 0;
+        left: 230px;
+        right: 0;
+    }
+}
+@media (max-device-width: 767px){
+    .overlay{
+        top: 70px;
+        bottom: 0;
+        left: 75px;
+        right: 0;
+    }
+}
+.home{
+    background-color: rgba(242, 241, 250, 0.70);
+    border-radius: 30px;
+    position: absolute;
+    height: 1fr;
+    padding: 60px;
+    scroll-behavior: smooth;
+}
+@media screen and (min-device-width: 768px)
+    and (max-device-width: 1023px){
+    .home{
+        padding: 20px;
+    }
+}
+.bfar-logo-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+}
+.bfar-home-logo{
+    height: 137px;
+    width: 129px;
+}
+.menu{ 
+    display: grid;
+    justify-content: space-between;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    column-gap: 10px;
+}
+@media screen and (min-device-width: 768px)
+    and (max-device-width: 1023px){
+    .menu{
+        grid-template-columns: 1fr 1fr 1fr;
+        row-gap: 20px;
+    }
+}
+
+@media (max-device-width: 767px){
+    .menu{
+        display: grid;
+        justify-content: space-between;
+        grid-template-columns: 1fr;
+        row-gap: 10px;
+    }
+}
+
+.menu-link{
+    background-color: rgba(217, 217, 217, 0.324);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.menu-link:hover{
+    background-color: gray;
+}
+.menu-icon{
+    margin: 8px;
+}
+.menu-text{
+    color: black;
+    font-size: 14px;
+    font-family: DM Sans;
+    font-weight: 700;
+    margin-top: 5px;
+}
+
