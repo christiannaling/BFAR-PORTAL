@@ -31,8 +31,6 @@
     width: 735px;
     height: 487px;
     position: absolute;
-    height: 1fr;
-    width: 1fr;
     position: relative;
 }
 @media (max-width: 1023px) {
@@ -109,11 +107,34 @@
     font-family: Manrope;
     font-style: normal;
     font-weight: 500;
+    cursor: pointer;
 }
 @media (max-width: 767px) {
     .option{
         font-size: 11px;
     }
+}
+.content{
+    margin-top: 5px;
+    margin-left: 60px;
+}
+.title{
+    display: flex;
+}
+.info{
+    font-size: 16px;
+    font-family: Manrope;
+    margin-bottom: 5px;
+    display: flex;
+    flex-direction: column;
+}
+.info-input{
+    background-color: transparent;
+    width: 270px;
+    padding: 5px;
+    border-style: solid;
+    border-radius: 8px;
+    border-color: rgba(0, 0, 0, 0.29);
 }
 .bot{
     background-color: white;
@@ -143,6 +164,7 @@
     align-items: center;
     border: none;
     border-radius: 30px;
+    cursor: pointer;
 }
 @media (max-width: 1023px) {
     .close-btn{
@@ -165,4 +187,5 @@
     align-items: center;
     border: none;
     border-radius: 30px;
+    cursor: pointer;
 }
