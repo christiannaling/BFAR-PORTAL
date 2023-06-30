@@ -120,6 +120,9 @@
 }
 .title{
     display: flex;
+    color: rgb(75,142,198);
+    font-size: 20px;
+    font-family: Manrope;
 }
 .info{
     font-size: 16px;
