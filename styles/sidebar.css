@@ -10,6 +10,7 @@
     padding-top: 37px;
     padding-left: 30px;
     padding-right: 14px;
+    z-index: 99;
 }
 .sidebar-open{
     display: none;
