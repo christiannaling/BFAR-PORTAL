@@ -1,5 +1,12 @@
-@media (max-device-width: 767px){
+body{
+    margin: 0;
+    padding-top: 70px;
+    padding-left: 295px;
+}
+@media (max-width: 767px) {
     body{
+        padding-top: 70px;
+        padding-left: 76px;
     }
 }
 .background{

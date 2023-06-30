@@ -1,6 +1,9 @@
 @media screen and (min-width: 1024px){
 
 }
+.no-underline{
+    text-decoration: none;
+}
 .sidebar{
     background-color: rgb(255,255,255);
     position: fixed;

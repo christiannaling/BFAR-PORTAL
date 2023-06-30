@@ -2,9 +2,9 @@
     position: relative;
     position: fixed;
     top: 70px;
+    right: 0;
     bottom: 0;
     left: 295px;
-    right: 0;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -12,29 +12,50 @@
 @media (max-width: 1023px) {
     .overlay{
         top: 70px;
-        bottom: 0;
         left: 230px;
-        right: 0;
     }
 }
 @media (max-width: 767px) {
     .overlay{
-        height: 1000px;
+        padding-top: 240px;
+        height: 1fr;
         left: 75px;
-        right: 0;
+        scroll-snap-type: y mandatory;
+        overflow-y: scroll;
+    }
+}
+@media (max-width: 420px) {
+    .overlay{
+        height: 1fr;
+        left: 75px;
+        padding-top: 420px;
+        scroll-snap-type: y mandatory;
+        overflow-y: scroll;
+        padding-bottom: 200px;
     }
 }
 .home{
     background-color: rgba(242, 241, 250, 0.70);
     border-radius: 30px;
+    padding: 60px;
     position: absolute;
     height: 1fr;
-
-    padding: 60px;
 }
 @media (max-width: 1023px) {
     .home{
         padding: 20px;
+    }
+}
+@media (max-width: 767px) {
+    .home{
+        padding: 20px;
+        margin-top: 50px;
+        scroll-padding-top: start;
+    }
+}
+@media (max-width: 400px) {
+    .home{
+        margin-top: 50px;
     }
 }
 .bfar-logo-container{

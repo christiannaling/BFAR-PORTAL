@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Profile</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@500&family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="styles/general.css">
+    <link rel="stylesheet" href="styles/header.css">
+    <link rel="stylesheet" href="styles/sidebar.css">
+    <link rel="stylesheet" href="styles/my-profile.css">
+</head>
+<body>
+    <div>
+        <img class="background" src="background/background.jpg">
+     </div>
+     <!--Header-->
+     <div class="header">
+       <div class="left-section">
+         <img class="bfar-logo" src="logo/bfar-logo.png">
+         <p class="bfar-title">BFAR PORTAL</p>
+       </div>
+       <div class="right-section">
+         <p class="about">About</p>
+         <p class="contact">Contact</P>
+       </div>
+       <!--Sidebar-->
+       <sidebar class="sidebar">
+         <div class="sidebar-open">
+           <img class="sidebar-arrow-icon" src="icons/sidebar-arrow-icon.svg"> 
+         </div>
+         <a class="no-underline" href="home.html">
+            <div class="sidebar-link">
+                <img class="sidebar-icon" src="icons/sidebar-home-icon.svg">
+                <div class="icon-text">Home</div>
+              </div>
+         </a>
+         <div class="sidebar-link">
+           <img class="sidebar-icon" src="icons/sidebar-schedules-icon.svg">
+           <div class="icon-text">My Schedule</div>
+         </div>
+         <div class="sidebar-link">
+           <img class="sidebar-icon" src="icons/sidebar-messages-icon.svg">
+           <div class="icon-text">Messages</div>
+         </div>
+         <div class="sidebar-link">
+           <img class="sidebar-icon" src="icons/sidebar-notifications-icon.svg">
+           <div class="icon-text">Notifications</div>
+         </div>
+         <div class="sidebar-link">
+           <img class="sidebar-icon" src="icons/sidebar-logout-icon.svg">
+           <div class="icon-text">Logout</div>
+         </div>
+         <div class="sidebar-user-account">
+             <img class="sidebar-profile-picture" src="logo/profile-picture.png">
+           <div>
+             <div class="sidebar-user-name">Chan</div>
+             <div class="sidebar-user-email">hakdog1234@gmail.com</div>
+           </div>
+         </div>
+        </sidebar>
+        <!--My Profile-->
+        <div class="overlay">
+            <div class="container">
+                <div class="top">
+                    <img class="my-profile-icon" src="icons/my-profile-icon.svg">
+                    My Profile
+                </div>
+                <div class="mid">
+                    <div class="option-container">
+                        <div class="option">Account</div>
+                        <div class="option">Contact</div>
+                        <div class="option">Personal</div>
+                        <div class="option">People</div>
+                        <div class="option">Address</div>
+                    </div>
+                    <div class="content">
+                        
+
+                    </div>
+                </div>
+                <div class="bot">
+                    <button class="close-btn">Close</button>
+                    <button class="apply-changes-btn">Apply Changes</button>
+                </div>
+            </div>
+            
+        </div>
+</body>
+</html>
