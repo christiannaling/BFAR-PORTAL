@@ -1,0 +1,226 @@
+.overlay{
+    position: relative;
+    position: fixed;
+    top: 70px;
+    right: 0px;
+    bottom: 0px;
+    left: 295px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+@media (max-width: 1023px) {
+    .overlay{
+        position: fixed;
+        top: 70px;
+        left: 230px;
+        right: 0px;
+    }
+}
+@media (max-width: 767px) {
+    .overlay{
+        position: fixed;
+        top: 70px;
+        left: 76px;
+        right: 0px;
+    }
+}
+.container{
+    background-color: rgba(242, 241, 250, 0.70);
+    border-radius: 30px;
+    width: 735px;
+    height: 487px;
+    position: absolute;
+    position: relative;
+}
+@media (max-width: 1023px) {
+    .container{
+        width: 1fr;
+        margin-left: 60px;
+        margin-right: 60px;
+    }
+}
+@media (max-width: 767px) {
+    .container{
+        width: 1fr;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+}
+.top{
+    background-color: white;
+    color: rgb(75,142,198);
+    font-size: 18px;
+    font-family: Manrope;
+    font-weight: 500;
+    border-top-color: none;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    display: flex;
+    height: 1fr;
+    width: 1fr;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    left: 0px;
+    padding-top: 19px;
+    padding-bottom: 19px;
+}
+@media (max-width: 767px) {
+    .top{
+        font-size: 14px;
+        padding-top: 14px;
+        padding-bottom: 14px;
+    }
+}
+.my-profile-icon{
+    margin-right: 10px;
+}
+.mid{
+    position: absolute;
+    top: 56px;
+    left: 0px;
+    right: 0px;
+    bottom: 80px;
+}
+.option-container{
+    display: flex;
+    justify-content: space-evenly;
+    border-style: solid;
+    border-top: 2px;
+    border-left: 2px;
+    border-right: 2px;
+    border-color: rgb(172,205,235);
+}
+.account-container,
+.contact-container,
+.personal-container,
+.people-container,
+.address-container{
+    position: relative;
+}
+.myprofile-contact{
+    position: relative;
+    color: rgb(75,142,198);
+    font-size: 16px;
+    font-family: Manrope;
+    font-style: normal;
+    font-weight: 500;
+    padding-top: 15px;
+    padding-bottom: 10px;
+    cursor: pointer;
+}
+.myprofile-account,
+.myprofile-personal,
+.myprofile-people,
+.myprofile-address{
+    position: relative;
+    color: rgb(76,83,95);
+    font-size: 16px;
+    font-family: Manrope;
+    font-style: normal;
+    font-weight: 500;
+    padding-top: 15px;
+    padding-bottom: 10px;
+    cursor: pointer;
+}
+.border{
+    position: absolute;
+    border: solid;
+    left: -15%;
+    right: -15%;
+    border-bottom: 2px;
+    border-color: rgb(75,142,198);
+}
+@media (max-width: 767px) {
+    .myprofile-account,
+    .myprofile-contact,
+    .myprofile-personal,
+    .myprofile-people,
+    .myprofile-address{
+        font-size: 11px;
+    }
+}
+.content{
+    margin-top: 5px;
+    margin-left: 8%;
+}
+.title{
+    display: flex;
+    color: rgb(75,142,198);
+    font-size: 20px;
+    font-family: Manrope;
+}
+.forms{
+    font-size: 16px;
+    font-family: Manrope;
+    margin-bottom: 5px;
+    display: flex;
+    flex-direction: column;
+}
+.forms-input{
+    background-color: transparent;
+    width: 270px;
+    padding: 5px;
+    border-style: solid;
+    border-radius: 8px;
+    border-color: rgba(0, 0, 0, 0.29);
+}
+@media (max-width: 460px) {
+    .forms-input{
+        width: 85%;
+    }
+}
+.bot{
+    background-color: white;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    position: absolute;
+    height: 1fr;
+    width: 1fr;
+    bottom: 0px;
+    right: 0px;
+    left: 0px;
+    padding: 18px;
+}
+.close-btn{
+    background-color: rgb(108,117,125);
+    color: white;
+    display: flex;
+    width: 225px;
+    height: 30px;
+    padding: 14px 37px;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+}
+@media (max-width: 1023px) {
+    .close-btn{
+        margin-right: 20px;
+    }
+}
+@media (max-width: 767px) {
+    .close-btn{
+        margin-right: 10px;
+    }
+}
+.apply-changes-btn{
+    background-color: rgb(75,142,198);
+    color: white;
+    display: flex;
+    width: 225px;
+    height: 30px;
+    padding: 14px 28px;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+}

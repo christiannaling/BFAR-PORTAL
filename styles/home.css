@@ -17,7 +17,7 @@
 }
 @media (max-width: 767px) {
     .overlay{
-        padding-top: 240px;
+        align-items: flex-start;
         height: 1fr;
         left: 75px;
         scroll-snap-type: y mandatory;
@@ -26,12 +26,11 @@
 }
 @media (max-width: 420px) {
     .overlay{
+        align-items: flex-start;
         height: 1fr;
         left: 75px;
-        padding-top: 420px;
         scroll-snap-type: y mandatory;
         overflow-y: scroll;
-        padding-bottom: 200px;
     }
 }
 .home{
@@ -50,6 +49,7 @@
     .home{
         padding: 20px;
         margin-top: 50px;
+        margin-bottom: 50px;
         scroll-padding-top: start;
     }
 }

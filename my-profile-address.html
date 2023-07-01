@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Profile</title>
+    <title>Address - My Profile</title>
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="styles/general.css">
     <link rel="stylesheet" href="styles/header.css">
     <link rel="stylesheet" href="styles/sidebar.css">
-    <link rel="stylesheet" href="styles/my-profile.css">
+    <link rel="stylesheet" href="styles/my-profile-address.css">
 </head>
 <body>
     <div>
@@ -72,35 +72,70 @@
                 </div>
                 <div class="mid">
                     <div class="option-container">
-                        <div class="option">Account</div>
-                        <div class="option">Contact</div>
-                        <div class="option">Personal</div>
-                        <div class="option">People</div>
-                        <div class="option">Address</div>
+                      <a class="no-underline" href="my-profile-account.html">
+                        <div class="account-container">
+                          <div class="myprofile-account">Account</div>
+                      </div>
+                      </a>
+                      <a class="no-underline" href="my-profile-contact.html">
+                        <div class="contact-container">
+                          <div class="myprofile-contact">Contact</div>
+                      </div>
+                      </a>
+                      <a class="no-underline" href="my-profile-personal.html">
+                        <div class="personal-container">
+                          <div class="myprofile-personal">Personal</div>
+                      </div>
+                      </a> 
+                      <a class="no-underline" href="my-profile-people.html">
+                        <div class="people-container">
+                          <div class="myprofile-people">People</div>
+                      </div>
+                      </a>
+                      <a class="no-underline" href="my-profile-address.html">
+                        <div class="address-container">
+                          <div class="myprofile-address">Address</div>
+                          <div class="border"></div>
+                      </div>
+                      </a>
                     </div>
                     <div class="content">
+                      <div class="content-scroll">
                         <div class="title">
-                            <img class="my-profile-icon" src="icons/my-profile-icon.svg">
-                            <p class="title-text">Name</p>
+                          <img class="my-profile-icon" src="icons/my-profile-address-icon.svg">
+                          <p class="title-text">Main Address</p>
                         </div>
-                        <div class="info">
-                            Client ID
-                            <input class="info-input" type="text" placeholder="">
+                        <div class="forms">
+                            House No.
+                            <input class="forms-input" type="text" placeholder="">
                         </div>
-                        <div class="info">
-                            Last Name
-                            <input class="info-input" type="text" placeholder="Please enter your last name">
+                        <div class="forms">
+                            Province
+                            <input class="forms-input" type="text" placeholder="">
                         </div>
-                        <div class="info">
-                            First Name
-                            <input class="info-input" type="text" placeholder="Please enter your first name">
+                        <div class="forms">
+                            Barangay
+                            <input class="forms-input" type="text" placeholder="">
                         </div>
-                        <div class="info">
-                            Middle Name
-                            <input class="info-input" type="text" placeholder="Please enter your middle name">
+                      </div>
+                      <div>
+                        <div class="title-2">
+                          <p class="title-text">Main Address</p>
                         </div>
+                        <div class="forms">
+                            Street/Village
+                            <input class="forms-input" type="text" placeholder="">
+                        </div>
+                        <div class="forms">
+                            City/Municipality
+                            <input class="forms-input" type="text" placeholder="">
+                        </div>
+                        <div class="forms">
+                            Zip Code
+                            <input class="forms-input" type="text" placeholder="">
+                        </div>
+                      </div>
                     </div>
-                </div>
                 <div class="bot">
                     <button class="close-btn">Close</button>
                     <button class="apply-changes-btn">Apply Changes</button>

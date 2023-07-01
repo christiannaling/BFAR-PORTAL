@@ -71,8 +71,8 @@
 @media (max-width: 767px) {
     .top{
         font-size: 14px;
-        padding-top: 12px;
-        padding-bottom: 12px;
+        padding-top: 14px;
+        padding-bottom: 14px;
     }
 }
 .my-profile-icon{
@@ -88,35 +88,64 @@
 .option-container{
     display: flex;
     justify-content: space-evenly;
-    padding-top: 15px;
-    padding-bottom: 10px;
     border-style: solid;
     border-top: 2px;
     border-left: 2px;
     border-right: 2px;
     border-color: rgb(172,205,235);
-}@media (max-width: 767px) {
-    .option-container{
-        padding-top: 7px;
-        padding-bottom: 8px;
-    }
 }
-.option{
+.account-container,
+.contact-container,
+.personal-container,
+.people-container,
+.address-container{
+    position: relative;
+}
+.myprofile-account{
+    position: relative;
+    color: rgb(75,142,198);
+    font-size: 16px;
+    font-family: Manrope;
+    font-style: normal;
+    font-weight: 500;
+    padding-top: 15px;
+    padding-bottom: 10px;
+    cursor: pointer;
+}
+.myprofile-contact,
+.myprofile-personal,
+.myprofile-people,
+.myprofile-address{
+    position: relative;
     color: rgb(76,83,95);
     font-size: 16px;
     font-family: Manrope;
     font-style: normal;
     font-weight: 500;
+    padding-top: 15px;
+    padding-bottom: 10px;
     cursor: pointer;
 }
+.border{
+    position: absolute;
+    border: solid;
+    left: -15%;
+    right: -15%;
+    border-bottom: 2px;
+    border-color: rgb(75,142,198);
+}
 @media (max-width: 767px) {
-    .option{
+    .myprofile-account,
+    .myprofile-contact,
+    .myprofile-personal,
+    .myprofile-people,
+    .myprofile-address{
         font-size: 11px;
     }
 }
 .content{
     margin-top: 5px;
-    margin-left: 60px;
+    margin-left: 8%;
 }
 .title{
     display: flex;
@@ -124,14 +153,14 @@
     font-size: 20px;
     font-family: Manrope;
 }
-.info{
+.forms{
     font-size: 16px;
     font-family: Manrope;
     margin-bottom: 5px;
     display: flex;
     flex-direction: column;
 }
-.info-input{
+.forms-input{
     background-color: transparent;
     width: 270px;
     padding: 5px;
@@ -139,10 +168,13 @@
     border-radius: 8px;
     border-color: rgba(0, 0, 0, 0.29);
 }
+@media (max-width: 460px) {
+    .forms-input{
+        width: 85%;
+    }
+}
 .bot{
     background-color: white;
-    border-style: solid;
-    border-color: gray;
     border-bottom-left-radius: 30px;
     border-bottom-right-radius: 30px;
     display: flex;
