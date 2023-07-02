@@ -11,7 +11,7 @@ body{
 }
 .background{
     position: fixed;
-    left: 75px;
+    left: 0px;
     top: 70px;
     height: 100%;
     width: 100%;

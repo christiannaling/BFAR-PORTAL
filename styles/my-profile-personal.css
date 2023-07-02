@@ -163,12 +163,6 @@
         display: flex;
         flex-direction: column;
     }
-    .content-scroll{
-        
-    }
-}
-.content-scroll{
-    height: 1fr;
 }
 .title{
     display: flex;
@@ -176,12 +170,22 @@
     font-size: 20px;
     font-family: Manrope;
 }
+@media (max-width: 767px) {
+    .title{
+        font-size: 16px;
+    }
+}
 .forms{
     font-size: 16px;
     font-family: Manrope;
     margin-bottom: 5px;
     display: flex;
     flex-direction: column;
+}
+@media (max-width: 767px) {
+    .forms{
+        font-size: 12px;
+    }
 }
 .forms-input{
     background-color: transparent;
