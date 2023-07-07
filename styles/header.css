@@ -82,7 +82,7 @@
     font-size: 18px;
     color: rgb(93,90,136);
     position: fixed;
-    right: 110px;
+    right: 120px;
     cursor: pointer;
 }
 .contact{
@@ -92,4 +92,24 @@
     position: fixed;
     right: 35px;
     cursor: pointer;
+}
+@media (max-width: 767px) {
+    .about{
+        right: 105px;
+        font-size: 17px;
+    }
+    .contact{
+        right: 28px;
+        font-size: 17px;
+    }
+}
+@media (max-width: 420px) {
+    .about{
+        right: 90px;
+        font-size: 16px;
+    }
+    .contact{
+        right: 20px;
+        font-size: 16px;
+    }
 }

@@ -38,7 +38,6 @@
     border-radius: 30px;
     padding: 60px;
     position: absolute;
-    height: 1fr;
 }
 @media (max-width: 1023px) {
     .home{
